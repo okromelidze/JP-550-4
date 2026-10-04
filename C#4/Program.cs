@@ -59,21 +59,21 @@
 
             #region დავალება 3
 
-            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 
-            //int evenCount = 0;
-            //int oddCount = 0;
+            int evenCount = 0;
+            int oddCount = 0;
 
-            //foreach (int n in arr)
-            //{
-            //    if (n % 2 == 0)
-            //        evenCount++;
-            //    else
-            //        oddCount++;
-            //}
+            foreach (int n in arr)
+            {
+                if (n % 2 == 0)
+                    evenCount++;
+                else
+                    oddCount++;
+            }
 
-            //Console.WriteLine("ლუწი რიცხვები: " + evenCount);
-            //Console.WriteLine("კენტი რიცხვები: " + oddCount);
+            Console.WriteLine("ლუწი რიცხვები: " + evenCount);
+            Console.WriteLine("კენტი რიცხვები: " + oddCount);
 
 
 
