@@ -27,30 +27,30 @@
 
             #region დავალება 2 
 
-            //Random rnd = new Random();
-            //int[] randomNumbers = new int[5];
+            Random rnd = new Random();
+            int[] randomNumbers = new int[5];
 
-            //for (int i = 0; i < randomNumbers.Length; i++)
-            //{
-            //    randomNumbers[i] = rnd.Next(1, 21);
-            //}
+            for (int i = 0; i < randomNumbers.Length; i++)
+            {
+                randomNumbers[i] = rnd.Next(1, 21);
+            }
 
-            //Console.WriteLine("მასივი: " + string.Join(", ", randomNumbers));
+            Console.WriteLine("მასივი: " + string.Join(", ", randomNumbers));
 
-            //bool allGreater = true;
-            //foreach (int n in randomNumbers)
-            //{
-            //    if (n <= 10)
-            //    {
-            //        allGreater = false;
-            //        break;
-            //    }
-            //}
+            bool allGreater = true;
+            foreach (int n in randomNumbers)
+            {
+                if (n <= 10)
+                {
+                    allGreater = false;
+                    break;
+                }
+            }
 
-            //if (allGreater)
-            //    Console.WriteLine("ყველა ელემენტი 10-ზე მეტია.");
-            //else
-            //    Console.WriteLine("ყველა ელემენტი 10-ზე მეტი არ არის.");
+            if (allGreater)
+                Console.WriteLine("ყველა ელემენტი 10-ზე მეტია.");
+            else
+                Console.WriteLine("ყველა ელემენტი 10-ზე მეტი არ არის.");
 
 
 

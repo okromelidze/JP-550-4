@@ -2,4 +2,5 @@
   <Project Path="C#/C#2.csproj" />
   <Project Path="C#2/C#3.csproj" />
   <Project Path="C#4/C#4.csproj" Id="af03c882-5ddf-48dc-a2ea-56ad7d306a08" />
+  <Project Path="C#5/C#5.csproj" Id="b2fd99dd-9d0a-4213-97a1-4b5ed8f34e9a" />
 </Solution>
