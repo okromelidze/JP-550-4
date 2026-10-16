@@ -4,4 +4,5 @@
   <Project Path="C#4/C#4.csproj" Id="af03c882-5ddf-48dc-a2ea-56ad7d306a08" />
   <Project Path="C#5/C#5.csproj" Id="b2fd99dd-9d0a-4213-97a1-4b5ed8f34e9a" />
   <Project Path="C#6/C#6.csproj" Id="0992f62c-fc55-4ffb-877f-30ae995d51f8" />
+  <Project Path="C#7/C#7.csproj" Id="bf655f5a-ae30-4201-92be-5169a145ad14" />
 </Solution>
